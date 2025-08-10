@@ -54,7 +54,7 @@ Before running this application, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/chatgpt-clone.git
+git clone https://github.com/mibienpanjoe/ChatGpt-Clone.git
 cd chatgpt-clone
 ```
 
@@ -81,16 +81,10 @@ const API_KEY = 'YOUR_API_KEY_HERE';
 const API_KEY = 'your-actual-gemini-api-key-goes-here';
 ```
 
-** 4. File Opening**
+### 4. File Opening
 - Simply open `index.html` in your web browser
 - Note: Some features may be limited due to CORS restrictions
 
-### 5. Start Chatting!
-
-1. Open your browser and navigate to `http://localhost:8000`
-2. Type your message in the input field
-3. Press Enter or click the Send button
-4. Enjoy your AI-powered conversation!
 
 ## 💡 Usage Tips
 
