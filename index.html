@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ChatGpt Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <script type="text/Javascript" src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="chat-container">
+        <div id="messages"></div>
+    </div>
+    <div class="typing-container">
+        <div class="typing-content">
+            <div class="typing-textarea">
+                <textarea id="userInput" placeholder="Ask any question :)" required>
+                </textarea>
+                <span onclick="sendMessage()" id="send-btn" class="material-symbols-outlined">arrow_circle_up</span>
+                <div class="typing-controls">
+                    <span id="theme-btn" class="material-symbols-outlined">light_mode</span>
+                    <span id="delete-btn" class="material-symbols-outlined">delete</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
