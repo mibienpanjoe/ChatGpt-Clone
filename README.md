@@ -144,4 +144,4 @@ If you encounter any issues:
 
 ---
 
-**Built by mj** 🚀
+**Built by Mj** 🚀
